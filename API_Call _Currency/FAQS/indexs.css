@@ -1,0 +1,26 @@
+body {
+    background-color: pink;
+    padding: 40px;
+    font-family: cursive;
+}
+
+.accordian {
+    background-color: antiquewhite;
+    padding: 6px 33px;
+    margin-bottom: 36px;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px;
+    cursor: pointer;
+}
+
+.question {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.answer {
+    color: #605d5d;
+    max-height: 0;
+    overflow: hidden;
+}
+
